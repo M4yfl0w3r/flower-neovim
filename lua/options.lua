@@ -1,6 +1,7 @@
 local options =
 {
   mouse = 'a',
+  background = 'dark'
   number = true,
   relativenumber = true,
   expandtab = true,
@@ -8,6 +9,7 @@ local options =
   tabstop = 2,
   hlsearch = true,
   cursorline = true,
+  ruler = false,
 }
 
 for option, value in pairs(options) do
