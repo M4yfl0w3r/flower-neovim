@@ -1,7 +1,16 @@
-vim.opt.number = true
-vim.opt.mouse = 'a'
-vim.opt.relativenumber = true
-vim.opt.expandtab = true
-vim.opt.shiftwidth = 2
-vim.opt.tabstop = 2
+local options =
+{
+  mouse = 'a',
+  number = true,
+  relativenumber = true,
+  expandtab = true,
+  shiftwidth = 2,
+  tabstop = 2,
+  hlsearch = true,
+  cursorline = true,
+}
+
+for option, value in pairs(options) do
+  vim.opt[option] = value
+end
 
