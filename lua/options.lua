@@ -1,9 +1,9 @@
 local options =
 {
+  mouse = 'a',
   backup = false,
   swapfile = false,
   hlsearch = true,
-  mouse = 'a',
   ignorecase = true,
   smartcase = true,
   smartindent = true,
