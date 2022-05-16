@@ -1,15 +1,23 @@
 local options =
 {
-  mouse = 'a',
-  background = 'dark'
-  number = true,
-  relativenumber = true,
-  expandtab = true,
-  shiftwidth = 2,
-  tabstop = 2,
+  backup = false,
+  swapfile = false,
   hlsearch = true,
+  mouse = 'a',
+  ignorecase = true,
+  smartindent = true,
+  showmode = false,
   cursorline = true,
-  ruler = false,
+  wrap = true,
+  -- signcolumn = "yes",
+  expandtab = true,
+  number = true,
+  tabstop = 2,
+  shiftwidth = 2,
+  writebackup = false,
+  splitright = true,
+  splitbelow = true,
+  relativenumber = true,
 }
 
 for option, value in pairs(options) do
