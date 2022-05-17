@@ -1,3 +1,3 @@
-vim.g.neon_style = "dark"
+vim.g.vscode_style = "dark"
 
-vim.cmd "colorscheme neon"
+vim.cmd "colorscheme vscode"
