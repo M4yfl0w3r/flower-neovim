@@ -19,3 +19,7 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv")
 
 -- Turn off highlight
 keymap("n", "<leader>n", ":noh<CR>")
+
+-- Open markdown file preview
+keymap("n", "<C-w>", ":MarkdownPreview<CR>")
+

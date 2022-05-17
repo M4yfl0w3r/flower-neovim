@@ -2,5 +2,6 @@
 
 100% Lua
 
-### TO DO
+### To do 
 - Move lualine config to lua/lualine.lua 
+

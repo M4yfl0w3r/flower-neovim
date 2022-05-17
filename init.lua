@@ -3,6 +3,7 @@ require('keymaps')
 require('plugins')
 require('colorscheme')
 require('treesitter')
+require('markdown_preview')
 
 require('nvim-autopairs').setup{}
 

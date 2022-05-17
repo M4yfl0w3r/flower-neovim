@@ -1,5 +1,5 @@
 return require('packer').startup(function()
-  
+
   use "wbthomason/packer.nvim"
   
   -- closing brackets
@@ -7,7 +7,9 @@ return require('packer').startup(function()
  
   -- colorscheme
   use 'Mofiqul/vscode.nvim'
-  
+
+  use 'davidgranstrom/nvim-markdown-preview'
+
   -- better syntax highlighting
   use 
   {
@@ -15,7 +17,7 @@ return require('packer').startup(function()
     run = ":TSUpdate",
   }
 
-  -- Status line 
+  -- status line 
   use 
   {
     "nvim-lualine/lualine.nvim",
@@ -23,6 +25,4 @@ return require('packer').startup(function()
   }
 
 end)
-
- 
 
