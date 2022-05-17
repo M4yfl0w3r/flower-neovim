@@ -2,7 +2,6 @@ require('options')
 require('keymaps')
 require('plugins')
 require('colorscheme')
+require('treesitter')
 
 require('nvim-autopairs').setup{}
-
-
