@@ -20,9 +20,9 @@ require("nvim-treesitter.configs").setup
     enable = true
   },
 
-  rainbow =
-  {
-    enable = true
-  }
+  -- rainbow =
+  -- {
+  --   enable = true
+  -- }
 }
 

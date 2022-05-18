@@ -14,6 +14,9 @@ return require('packer').startup(function()
   -- colorful parenthesis
   use 'p00f/nvim-ts-rainbow'
 
+  -- bufferline
+  use 'akinsho/bufferline.nvim'
+
   -- better syntax highlighting
   use 
   {
@@ -26,14 +29,6 @@ return require('packer').startup(function()
   {
     "nvim-lualine/lualine.nvim",
     requires = {"kyazdani42/nvim-web-devicons", opt = true}
-  }
-
-  -- bufferline
-  use 
-  {
-    "akinsho/bufferline.nvim",
-    tag = "v2.*",
-    requires = "kyazdani42/nvim-web-devicons"
   }
 
   -- file explorer
@@ -64,6 +59,13 @@ return require('packer').startup(function()
     "akinsho/toggleterm.nvim", 
     tag = 'v1.*', 
   }
+
+  -- metals - scala language server  
+  -- use
+  -- {
+  --   "scalameta/nvim-metals", 
+  --   requires = "nvim-lua/plenary.nvim" 
+  -- }
 
 end)
 

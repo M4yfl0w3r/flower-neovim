@@ -1,40 +1,16 @@
-require('markdown_preview')
 require('colorscheme')
-require('toggleterm')
-require('treesitter')
 require('options')
 require('keymaps')
 require('plugins')
+
+require('markdown_preview_setup')
+require('treesitter_setup')
+require('bufferline_setup')
+require('toggleterm_setup')
+require('lualine_setup')
 
 require('nvim-autopairs').setup{}
 require('nvim-tree').setup{}
 require('telescope').setup{}
 require('Comment').setup{}
-
-require('lualine').setup
-{
-  sections = 
-  {
-    lualine_a = {'mode'},
-    lualine_b = {'branch'},
-    lualine_c = {'filename'},
-    lualine_x = {''},
-    lualine_y = {''},
-    lualine_z = {'progress'}
-  },
-}
-
-require('bufferline').setup
-{
-  options =
-  {
-    offsets = { { filetype = "NvimTree", text = "File Explorer", padding = 1 } },
-  }
-}
-
-require('toggleterm').setup
-{
-	open_mapping = [[<C-\>]],
-	direction = "float"
-}
 
