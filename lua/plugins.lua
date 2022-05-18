@@ -51,5 +51,12 @@ return require('packer').startup(function()
     config = function() require('Comment').setup() end
   }
 
+  -- file finder 
+  use 
+  {
+    "nvim-telescope/telescope.nvim",
+    requires = "nvim-lua/plenary.nvim"
+  }
+
 end)
 

@@ -1,12 +1,13 @@
+require('markdown_preview')
+require('colorscheme')
+require('treesitter')
 require('options')
 require('keymaps')
 require('plugins')
-require('colorscheme')
-require('treesitter')
-require('markdown_preview')
 
 require('nvim-autopairs').setup{}
 require('nvim-tree').setup{}
+require('telescope').setup{}
 require('Comment').setup{}
 
 require('lualine').setup
