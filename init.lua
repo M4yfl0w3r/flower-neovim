@@ -1,5 +1,6 @@
 require('markdown_preview')
 require('colorscheme')
+require('toggleterm')
 require('treesitter')
 require('options')
 require('keymaps')
@@ -29,5 +30,11 @@ require('bufferline').setup
   {
     offsets = { { filetype = "NvimTree", text = "File Explorer", padding = 1 } },
   }
+}
+
+require('toggleterm').setup
+{
+	open_mapping = [[<C-\>]],
+	direction = "float"
 }
 

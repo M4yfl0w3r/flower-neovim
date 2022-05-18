@@ -58,5 +58,12 @@ return require('packer').startup(function()
     requires = "nvim-lua/plenary.nvim"
   }
 
+  -- toggle terminal while editing file
+  use 
+  {
+    "akinsho/toggleterm.nvim", 
+    tag = 'v1.*', 
+  }
+
 end)
 
