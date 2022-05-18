@@ -6,7 +6,7 @@ return require('packer').startup(function()
   use "windwp/nvim-autopairs" 
  
   -- colorscheme
-  use 'Mofiqul/vscode.nvim'
+  use 'martinsione/darkplus.nvim'
 
   -- markdown preview
   use 'davidgranstrom/nvim-markdown-preview'
@@ -33,14 +33,19 @@ return require('packer').startup(function()
     requires = "kyazdani42/nvim-web-devicons"
   }
 
-  -- File explorer
+  -- file explorer
   use 
   {
     "kyazdani42/nvim-tree.lua",
-    requires = {
-      'kyazdani42/nvim-web-devicons', 
-    },
-    tag = 'nightly' 
+    requires = "kyazdani42/nvim-web-devicons",
+    tag = "nightly" 
+  }
+
+  -- better commenting (gcc for single line | gc for multiline)
+  use 
+  {
+    "numToStr/Comment.nvim",
+    config = function() require('Comment').setup() end
   }
 
 end)

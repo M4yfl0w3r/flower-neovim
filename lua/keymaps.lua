@@ -28,5 +28,14 @@ keymap("n", "<A-Right>", ":bnext<CR>")
 keymap("n", "<A-Left>", ":bprevious<CR>")
 
 -- File explorer (Space + e)
-keymap("n", "<leader>e", ":NvimTreeToggle<cr>")
+keymap("n", "<leader>e", ":NvimTreeToggle<CR>")
+
+-- Switch between windows (Ctrl + Arrows)
+keymap("n", "<C-Up>", "<C-w>k")
+keymap("n", "<C-Down>", "<C-w>j")
+keymap("n", "<C-Right>", "<C-w>l")
+keymap("n", "<C-Left>", "<C-w>h")
+
+-- Close a window (Ctrl + x)
+keymap("n", "<C-x>", ":bd<CR>")
 

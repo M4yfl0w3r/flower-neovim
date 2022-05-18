@@ -6,8 +6,8 @@ require('treesitter')
 require('markdown_preview')
 
 require('nvim-autopairs').setup{}
-require('bufferline').setup{}
 require('nvim-tree').setup{}
+require('Comment').setup{}
 
 require('lualine').setup
 {
@@ -22,6 +22,11 @@ require('lualine').setup
   },
 }
 
-
-
+require('bufferline').setup
+{
+  options =
+  {
+    offsets = { { filetype = "NvimTree", text = "File Explorer", padding = 1 } },
+  }
+}
 
