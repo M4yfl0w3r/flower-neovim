@@ -9,6 +9,7 @@ local options =
   smartcase = true,
   smartindent = true,
   showmode = false,
+  encoding= "UTF-8",
   cursorline = true,
   wrap = true,
   expandtab = true,

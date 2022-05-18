@@ -40,5 +40,8 @@ keymap("n", "<C-Left>", "<C-w>h")
 keymap("n", "<C-x>", ":bd<CR>")
 
 -- Open file finder (Space + f) 
-keymap("n", "<leader>f", "<cmd>Telescope find_files<cr>")
+keymap("n", "<leader>f", "<cmd>Telescope find_files<CR>")
+
+-- Show git changes
+keymap("n", "<leader>g", "<cmd>Gitsigns toggle_signs<CR>")
 
