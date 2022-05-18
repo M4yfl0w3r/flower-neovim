@@ -11,15 +11,19 @@ vim.g.mapleader = " "
 keymap("v", "<", "<gv")
 keymap("v", ">", ">gv")
 
--- Move text
+-- Move text (Alt + j/k)
 keymap("v", "<A-j>", ":m .+1<CR>==")
 keymap("v", "<A-k>", ":m .-2<CR>==")
 keymap("x", "<A-j>", ":move '>+1<CR>gv-gv")
 keymap("x", "<A-k>", ":move '<-2<CR>gv-gv")
 
--- Turn off highlight
+-- Turn off highlight (Space + n)
 keymap("n", "<leader>n", ":noh<CR>")
 
--- Open markdown file preview
+-- Open markdown file preview (Ctrl + w)
 keymap("n", "<C-w>", ":MarkdownPreview<CR>")
+
+-- Switch buffers (Alt + Arrows)
+keymap("n", "<A-Right>", ":bnext<CR>", opts)
+keymap("n", "<A-Left>", ":bprevious<CR>", opts)
 

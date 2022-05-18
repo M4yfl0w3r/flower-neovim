@@ -8,6 +8,7 @@ return require('packer').startup(function()
   -- colorscheme
   use 'Mofiqul/vscode.nvim'
 
+  -- markdown preview
   use 'davidgranstrom/nvim-markdown-preview'
 
   -- better syntax highlighting
@@ -22,6 +23,14 @@ return require('packer').startup(function()
   {
     "nvim-lualine/lualine.nvim",
     requires = {"kyazdani42/nvim-web-devicons", opt = true}
+  }
+
+  -- bufferline
+  use 
+  {
+    "akinsho/bufferline.nvim",
+    tag = "v2.*",
+    requires = "kyazdani42/nvim-web-devicons"
   }
 
 end)

@@ -6,6 +6,7 @@ require('treesitter')
 require('markdown_preview')
 
 require('nvim-autopairs').setup{}
+require('bufferline').setup{}
 
 require('lualine').setup
 {
@@ -19,6 +20,7 @@ require('lualine').setup
     lualine_z = {'progress'}
   },
 }
+
 
 
 

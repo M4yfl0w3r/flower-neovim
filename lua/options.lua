@@ -5,6 +5,7 @@ local options =
   swapfile = false,
   hlsearch = true,
   ignorecase = true,
+  termguicolors = true,
   smartcase = true,
   smartindent = true,
   showmode = false,
