@@ -33,5 +33,15 @@ return require('packer').startup(function()
     requires = "kyazdani42/nvim-web-devicons"
   }
 
+  -- File explorer
+  use 
+  {
+    "kyazdani42/nvim-tree.lua",
+    requires = {
+      'kyazdani42/nvim-web-devicons', 
+    },
+    tag = 'nightly' 
+  }
+
 end)
 

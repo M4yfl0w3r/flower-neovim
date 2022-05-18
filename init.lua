@@ -7,6 +7,7 @@ require('markdown_preview')
 
 require('nvim-autopairs').setup{}
 require('bufferline').setup{}
+require('nvim-tree').setup{}
 
 require('lualine').setup
 {

@@ -24,6 +24,9 @@ keymap("n", "<leader>n", ":noh<CR>")
 keymap("n", "<C-w>", ":MarkdownPreview<CR>")
 
 -- Switch buffers (Alt + Arrows)
-keymap("n", "<A-Right>", ":bnext<CR>", opts)
-keymap("n", "<A-Left>", ":bprevious<CR>", opts)
+keymap("n", "<A-Right>", ":bnext<CR>")
+keymap("n", "<A-Left>", ":bprevious<CR>")
+
+-- File explorer (Space + e)
+keymap("n", "<leader>e", ":NvimTreeToggle<cr>")
 
