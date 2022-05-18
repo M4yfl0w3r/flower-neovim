@@ -11,6 +11,9 @@ return require('packer').startup(function()
   -- markdown preview
   use 'davidgranstrom/nvim-markdown-preview'
 
+  -- colorful parenthesis
+  use 'p00f/nvim-ts-rainbow'
+
   -- better syntax highlighting
   use 
   {
