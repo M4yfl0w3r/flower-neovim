@@ -49,3 +49,4 @@ My Neovim configuration written in Lua.
 - `gD` - go to the function declaration
 - `gd` - go to the function definition
 - `gl` - show diagnostics
+

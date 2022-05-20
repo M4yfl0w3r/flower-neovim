@@ -4,7 +4,6 @@ require("setup.cmp")
 require("setup.lsp")
 require("setup.options")
 require("setup.keymaps")
-require("setup.markdown_preview")
 require("setup.treesitter")
 require("setup.bufferline")
 require("setup.toggleterm")
@@ -17,4 +16,3 @@ require("nvim-tree").setup{}
 require("telescope").setup{}
 require("Comment").setup{}
 require("gitsigns").setup{}
-
