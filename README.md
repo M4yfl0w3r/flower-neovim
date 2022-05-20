@@ -8,7 +8,7 @@ My Neovim configuration written in Lua.
 - [Plugin manager](https://github.com/wbthomason/packer.nvim)
 - [Autopairs](https://github.com/windwp/nvim-autopairs)
 - [Coloscheme](https://github.com/martinsione/darkplus.nvim/)
-- [Markdown Preview](https://github.com/davidgranstrom/nvim-markdown-preview) 
+- [Markdown Preview](https://github.com/iamcco/markdown-preview.nvim) 
 - [Colorful parentheses](https://github.com/p00f/nvim-ts-rainbow)
 - [Bufferline](https://github.com/akinsho/bufferline.nvim)
 - [Smooth scrolling](https://github.com/declancm/cinnamon.nvim)
