@@ -1,26 +1,30 @@
 local options =
 {
-  mouse = 'a',
+  mouse = "a",
+  encoding= "UTF-8",
+  signcolumn = "yes",
+
   backup = false,
   swapfile = false,
-  hlsearch = true,
-  ignorecase = true,
-  termguicolors = true,
-  smartcase = true,
-  smartindent = true,
   showmode = false,
-  encoding= "UTF-8",
-  cursorline = true,
-  wrap = true,
-  expandtab = true,
-  updatetime = 300,
-  number = true,
-  tabstop = 2,
-  shiftwidth = 2,
   writebackup = false,
+  
+  wrap = true,
+  number = true,
+  hlsearch = true,
+  smartcase = true,
+  expandtab = true,
   splitright = true,
   splitbelow = true,
+  ignorecase = true,
+  cursorline = true,
+  smartindent = true,
+  termguicolors = true,
   relativenumber = true,
+
+  tabstop = 2,
+  shiftwidth = 2,
+  updatetime = 300,
 }
 
 for option, value in pairs(options) do
