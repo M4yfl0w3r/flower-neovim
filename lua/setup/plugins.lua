@@ -38,6 +38,20 @@ return require('packer').startup(function()
   -- start screen
   use "goolord/alpha-nvim"
 
+  -- LSP
+  use "neovim/nvim-lspconfig"
+  use "williamboman/nvim-lsp-installer"
+
+  -- completion
+  use 'hrsh7th/cmp-nvim-lsp'
+  use 'hrsh7th/cmp-buffer'
+  use 'hrsh7th/cmp-path'
+  use 'hrsh7th/cmp-cmdline'
+  use 'hrsh7th/nvim-cmp'
+  use 'L3MON4D3/LuaSnip'
+
+  use "mfussenegger/nvim-dap" 
+
   -- better syntax highlighting
   use 
   {
@@ -52,19 +66,19 @@ return require('packer').startup(function()
     tag = "nightly" 
   }
 
-  -- file finder 
+  -- file finder
   use 
   {
     "nvim-telescope/telescope.nvim",
     requires = "nvim-lua/plenary.nvim"
   }
-  
+
   -- metals - scala language server  
-  -- use
-  -- {
-  --   "scalameta/nvim-metals", 
-  --   requires = "nvim-lua/plenary.nvim" 
-  -- }
+  use
+  {
+     "scalameta/nvim-metals",
+     requires = "nvim-lua/plenary.nvim"
+  }
 
 end)
 
