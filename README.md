@@ -21,6 +21,16 @@ My Neovim configuration written in Lua.
 - [Better syntax](https://github.com/nvim-treesitter/nvim-treesitter)
 - [File explorer](https://github.com/kyazdani42/nvim-tree.lua)
 - [Fuzzy finder](https://github.com/nvim-telescope/telescope.nvim)
+- [LSP configuration](https://github.com/neovim/nvim-lspconfig)
+- [LSP installer](https://github.com/williamboman/nvim-lsp-installer)
+- [Completions](https://github.com/hrsh7th/nvim-cmp)
+- [LSP Completions](https://github.com/hrsh7th/cmp-nvim-lsp)
+- [Snippet completions](https://github.com/saadparwaiz1/cmp_luasnip)
+- [Buffer completions](https://github.com/hrsh7th/cmp-buffer)
+- [Path completions](https://github.com/hrsh7th/cmp-path)
+- [Command line completions](https://github.com/hrsh7th/cmp-cmdline)
+- [Snippet Engine](https://github.com/L3MON4D3/LuaSnip)
+- [Set of snippets](https://github.com/rafamadriz/friendly-snippets)
   
 
 #### Keybinds
@@ -36,8 +46,6 @@ My Neovim configuration written in Lua.
 - `Ctrl + x` - Close buffer
 - `Alt + Arrows` - Switch buffers
 - `Alt + k/j` - Move marked text up and down
-
-#### To do
-
-- Setup LSP
-
+- `gD` - go to the function declaration
+- `gd` - go to the function definition
+- `gl` - show diagnostics
