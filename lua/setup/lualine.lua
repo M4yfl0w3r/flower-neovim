@@ -11,5 +11,11 @@ require('lualine').setup
     lualine_y = {''},
     lualine_z = {'progress'}
   },
+
+  options =
+  {
+    section_separators = { left = '', right = '' },
+    component_separators = { left = '|', right = '|' }
+  }
 }
 
