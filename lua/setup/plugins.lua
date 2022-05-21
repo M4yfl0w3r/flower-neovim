@@ -29,6 +29,7 @@ return require("packer").startup(
   use "L3MON4D3/LuaSnip"
   use "rafamadriz/friendly-snippets"
   use "iamcco/markdown-preview.nvim"
+  use "SmiteshP/nvim-gps"
 
   end
 )
