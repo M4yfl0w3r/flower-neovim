@@ -31,6 +31,7 @@ My Neovim configuration written in Lua.
 - [Command line completions](https://github.com/hrsh7th/cmp-cmdline)
 - [Snippet Engine](https://github.com/L3MON4D3/LuaSnip)
 - [Set of snippets](https://github.com/rafamadriz/friendly-snippets)
+- [GPS](https://github.com/SmiteshP/nvim-gps)
   
 
 #### Keybinds
