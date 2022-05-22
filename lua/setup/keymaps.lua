@@ -39,9 +39,11 @@ keymap("n", "<C-Left>", "<C-w>h")
 -- Close a window (Ctrl + x)
 keymap("n", "<C-x>", ":bd<CR>")
 
--- Open file finder (Space + f) 
+-- Open file finder (Space + f)
 keymap("n", "<leader>f", "<cmd>Telescope find_files<CR>")
 
 -- Show git changes
 keymap("n", "<leader>g", "<cmd>Gitsigns toggle_signs<CR>")
+keymap("n", "<C-g>", "<cmd>Gitsigns preview_hunk<CR>")
+keymap("n", "<leader>w", "<cmd>Gitsigns blame_line<CR>")
 

@@ -39,12 +39,14 @@ My Neovim configuration written in Lua.
 - `Space` - Leader key 
 - `Space + e` - Open file explorer
 - `Space + f` - Open fuzzy finder
-- `Space + g` - Show git changes
+- `Space + g` - Highlight git changes
 - `Space + n` - Turn off highlight after searching
+- `Space + w` - Show who changed the line with commit message
 - `Ctrl + Arrows` - Switch windows
 - `Ctrl + w` - View Markdown preview
 - `Ctrl + \` - Toggle terminal
 - `Ctrl + x` - Close buffer
+- `Ctrl + q` - Show git changes ()
 - `Alt + Arrows` - Switch buffers
 - `Alt + k/j` - Move marked text up and down
 - `gD` - go to the function declaration
