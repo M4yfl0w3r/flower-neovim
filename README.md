@@ -32,7 +32,7 @@ My Neovim configuration written in Lua.
 - [Snippet Engine](https://github.com/L3MON4D3/LuaSnip)
 - [Set of snippets](https://github.com/rafamadriz/friendly-snippets)
 - [GPS](https://github.com/SmiteshP/nvim-gps)
-  
+- [Popup with keybindings](https://github.com/folke/which-key.nvim)
 
 #### Keybinds
 
