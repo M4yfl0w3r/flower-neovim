@@ -30,6 +30,7 @@ return require("packer").startup(
   use "rafamadriz/friendly-snippets"
   use "iamcco/markdown-preview.nvim"
   use "SmiteshP/nvim-gps"
+  use "folke/which-key.nvim"
 
   end
 )
