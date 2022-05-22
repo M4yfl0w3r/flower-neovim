@@ -42,6 +42,7 @@ My Neovim configuration written in Lua.
 - `Space + g` - Highlight git changes
 - `Space + n` - Turn off highlight after searching
 - `Space + w` - Show who changed the line with commit message
+- `Space + i` - Show possible keybindings
 - `Ctrl + Arrows` - Switch windows
 - `Ctrl + w` - View Markdown preview
 - `Ctrl + \` - Toggle terminal
