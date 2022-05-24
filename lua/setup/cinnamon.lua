@@ -1,4 +1,4 @@
-require('cinnamon').setup 
+require("cinnamon").setup
 {
-  scroll_limit = 100 
+  scroll_limit = 100
 }

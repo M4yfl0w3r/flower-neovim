@@ -32,7 +32,6 @@ My Neovim configuration written in Lua.
 - [Snippet Engine](https://github.com/L3MON4D3/LuaSnip)
 - [Set of snippets](https://github.com/rafamadriz/friendly-snippets)
 - [GPS](https://github.com/SmiteshP/nvim-gps)
-- [Popup with keybindings](https://github.com/folke/which-key.nvim)
 
 #### Keybinds
 
@@ -42,7 +41,6 @@ My Neovim configuration written in Lua.
 - `Space + g` - Highlight git changes
 - `Space + n` - Turn off highlight after searching
 - `Space + w` - Show who changed the line with commit message
-- `Space + i` - Show possible keybindings
 - `Ctrl + Arrows` - Switch windows
 - `Ctrl + w` - View Markdown preview
 - `Ctrl + \` - Toggle terminal

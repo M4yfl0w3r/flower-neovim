@@ -11,7 +11,6 @@ require("setup.lualine")
 require("setup.cinnamon")
 require("setup.alpha")
 require("setup.gps")
-require("setup.whichkey")
 
 require("nvim-autopairs").setup{}
 require("nvim-tree").setup{}

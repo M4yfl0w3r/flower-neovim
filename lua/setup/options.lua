@@ -8,7 +8,7 @@ local options =
   swapfile = false,
   showmode = false,
   writebackup = false,
-  
+
   wrap = true,
   number = true,
   hlsearch = true,
@@ -24,6 +24,7 @@ local options =
 
   tabstop = 2,
   shiftwidth = 2,
+  timeoutlen = 500,
   updatetime = 300,
 }
 
