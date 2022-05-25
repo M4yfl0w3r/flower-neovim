@@ -11,10 +11,10 @@ require("setup.lualine")
 require("setup.cinnamon")
 require("setup.alpha")
 require("setup.gps")
+require("setup.tree")
 require("setup.blankline")
+require("setup.autopairs")
 
-require("nvim-autopairs").setup{}
-require("nvim-tree").setup{}
 require("telescope").setup{}
 require("Comment").setup{}
 require("gitsigns").setup{}
