@@ -14,8 +14,8 @@ require("setup.gps")
 require("setup.tree")
 require("setup.blankline")
 require("setup.autopairs")
+require("setup.telescope")
+require("setup.comment")
+require("setup.gitsigns")
 
-require("telescope").setup{}
-require("Comment").setup{}
-require("gitsigns").setup{}
 
