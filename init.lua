@@ -12,10 +12,8 @@ require("setup.cinnamon")
 require("setup.alpha")
 require("setup.gps")
 require("setup.tree")
-require("setup.blankline")
 require("setup.autopairs")
 require("setup.telescope")
 require("setup.comment")
 require("setup.gitsigns")
-
 
