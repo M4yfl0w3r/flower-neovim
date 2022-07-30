@@ -16,4 +16,5 @@ require("setup.autopairs")
 require("setup.telescope")
 require("setup.comment")
 require("setup.gitsigns")
+-- require("setup.doom")
 
