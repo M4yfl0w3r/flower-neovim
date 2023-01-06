@@ -4,7 +4,6 @@ return require("packer").startup(
 
   use "wbthomason/packer.nvim"
   use "windwp/nvim-autopairs"
-  use "martinsione/darkplus.nvim"
   use "p00f/nvim-ts-rainbow"
   use "akinsho/bufferline.nvim"
   use "declancm/cinnamon.nvim"
@@ -30,6 +29,7 @@ return require("packer").startup(
   use "rafamadriz/friendly-snippets"
   use "iamcco/markdown-preview.nvim"
   use "SmiteshP/nvim-gps"
+  use "rafamadriz/neon"
 
   end
 )
