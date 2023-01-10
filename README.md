@@ -7,7 +7,8 @@ My Neovim configuration written in Lua.
 
 - [Plugin manager](https://github.com/wbthomason/packer.nvim)
 - [Autopairs](https://github.com/windwp/nvim-autopairs)
-- [Coloscheme](https://github.com/rafamadriz/neon)
+- [Coloscheme](https://github.com/NTBBloodbath/doom-one.nvim)
+- [Diagnostics](https://github.com/folke/trouble.nvim)
 - [Markdown Preview](https://github.com/iamcco/markdown-preview.nvim) 
 - [Colorful parentheses](https://github.com/p00f/nvim-ts-rainbow)
 - [Bufferline](https://github.com/akinsho/bufferline.nvim)
@@ -42,14 +43,13 @@ My Neovim configuration written in Lua.
 - `Space + g` - Highlight git changes
 - `Space + n` - Turn off highlight after searching
 - `Space + w` - Show who changed the line with commit message
+- `Space + s` - show diagnostics
 - `Ctrl + Arrows` - Switch windows
 - `Ctrl + w` - View Markdown preview
 - `Ctrl + \` - Toggle terminal
 - `Ctrl + x` - Close buffer
-- `Ctrl + q` - Show git changes ()
+- `Ctrl + q` - Show git changes
 - `Alt + Arrows` - Switch buffers
 - `Alt + k/j` - Move marked text up and down
 - `gD` - go to the function declaration
 - `gd` - go to the function definition
-- `gl` - show diagnostics
-

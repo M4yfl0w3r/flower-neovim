@@ -1,3 +1,1 @@
-vim.g.neon_style = "dark"
-
-vim.cmd "colorscheme neon"
+vim.cmd "colorscheme doom-one"

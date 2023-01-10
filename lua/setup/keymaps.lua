@@ -49,3 +49,6 @@ keymap("n", "<leader>w", "<cmd>Gitsigns blame_line<CR>")
 
 -- Show key binds
 keymap("n", "<leader>i", "<cmd>WhichKey<CR>")
+
+-- Show diagnostics
+keymap("n", "<leader>s", "<cmd>TroubleToggle<CR>")

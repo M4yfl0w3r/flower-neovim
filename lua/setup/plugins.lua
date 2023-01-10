@@ -29,7 +29,8 @@ return require("packer").startup(
   use "rafamadriz/friendly-snippets"
   use "iamcco/markdown-preview.nvim"
   use "SmiteshP/nvim-gps"
-  use "rafamadriz/neon"
+  use "NTBBloodbath/doom-one.nvim"
+  use "folke/trouble.nvim"
 
   end
 )

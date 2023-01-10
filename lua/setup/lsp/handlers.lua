@@ -40,7 +40,6 @@ local function lsp_keymaps(bufnr)
 
   keymap("n", "gD", "<cmd>lua vim.lsp.buf.declaration()<CR>")
   keymap("n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>")
-  keymap("n", "gl", '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>')
 
   vim.cmd [[ command! Format execute 'lua vim.lsp.buf.formatting()' ]]
 end
