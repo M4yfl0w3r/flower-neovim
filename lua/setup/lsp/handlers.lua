@@ -18,7 +18,7 @@ M.setup = function()
     virtual_text = false,
     signs = { active = signs },
     update_in_insert = true,
-    underline = true,
+    underline = false,
     float = {
       focusable = false,
       style = "minimal",

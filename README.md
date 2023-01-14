@@ -34,6 +34,7 @@ My Neovim configuration written in Lua.
 - [Set of snippets](https://github.com/rafamadriz/friendly-snippets)
 - [GPS](https://github.com/SmiteshP/nvim-gps)
 - [Indent Blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [Pretty fold](https://github.com/anuvyklack/pretty-fold.nvim)
 
 #### Keybinds
 
