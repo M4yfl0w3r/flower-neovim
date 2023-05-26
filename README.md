@@ -2,7 +2,6 @@
 
 My Neovim configuration written in Lua.
 
-
 #### Plugins
 
 - [Plugin manager](https://github.com/wbthomason/packer.nvim)
@@ -35,22 +34,3 @@ My Neovim configuration written in Lua.
 - [GPS](https://github.com/SmiteshP/nvim-gps)
 - [Indent Blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [Pretty fold](https://github.com/anuvyklack/pretty-fold.nvim)
-
-#### Keybinds
-
-- `Space` - Leader key 
-- `Space + e` - Open file explorer
-- `Space + f` - Open fuzzy finder
-- `Space + g` - Highlight git changes
-- `Space + n` - Turn off highlight after searching
-- `Space + w` - Show who changed the line with commit message
-- `Space + s` - show diagnostics
-- `Ctrl + Arrows` - Switch windows
-- `Ctrl + w` - View Markdown preview
-- `Ctrl + \` - Toggle terminal
-- `Ctrl + x` - Close buffer
-- `Ctrl + q` - Show git changes
-- `Alt + Arrows` - Switch buffers
-- `Alt + k/j` - Move marked text up and down
-- `gD` - go to the function declaration
-- `gd` - go to the function definition

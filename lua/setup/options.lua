@@ -1,6 +1,7 @@
 local options =
 {
   mouse = "a",
+  guicursor = "",
   encoding= "UTF-8",
   signcolumn = "yes",
 
