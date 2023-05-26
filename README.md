@@ -6,7 +6,7 @@ My Neovim configuration written in Lua.
 
 - [Plugin manager](https://github.com/wbthomason/packer.nvim)
 - [Autopairs](https://github.com/windwp/nvim-autopairs)
-- [Coloscheme](https://github.com/NTBBloodbath/doom-one.nvim)
+- [Coloscheme](https://github.com/martinsione/darkplus.nvim)
 - [Diagnostics](https://github.com/folke/trouble.nvim)
 - [Markdown Preview](https://github.com/iamcco/markdown-preview.nvim) 
 - [Colorful parentheses](https://github.com/p00f/nvim-ts-rainbow)
