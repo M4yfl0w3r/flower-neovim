@@ -47,6 +47,9 @@ keymap("n", "<leader>g", "<cmd>Gitsigns toggle_signs<CR>")
 keymap("n", "<C-g>", "<cmd>Gitsigns preview_hunk<CR>")
 keymap("n", "<leader>w", "<cmd>Gitsigns blame_line<CR>")
 
+-- Show diagnostics
+keymap("n", "gl", "<cmd>lua vim.diagnostic.open_float()<CR>")
+
 -- Show key binds
 keymap("n", "<leader>i", "<cmd>WhichKey<CR>")
 
