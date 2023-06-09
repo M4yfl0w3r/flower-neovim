@@ -6,7 +6,7 @@ My Neovim configuration written in Lua.
 
 - [Plugin manager](https://github.com/wbthomason/packer.nvim)
 - [Autopairs](https://github.com/windwp/nvim-autopairs)
-- [Coloscheme](https://github.com/martinsione/darkplus.nvim)
+- [Coloscheme](https://github.com/folke/tokyonight.nvim)
 - [Diagnostics](https://github.com/folke/trouble.nvim)
 - [Bufferline](https://github.com/akinsho/bufferline.nvim)
 - [Git signs](https://github.com/lewis6991/gitsigns.nvim)
@@ -14,7 +14,6 @@ My Neovim configuration written in Lua.
 - [Toggle Terminal](https://github.com/akinsho/toggleterm.nvim)
 - [Icons](https://github.com/kyazdani42/nvim-web-devicons)
 - [Status line](https://github.com/nvim-lualine/lualine.nvim)
-- [Start menu](https://github.com/goolord/alpha-nvim)
 - [Better syntax](https://github.com/nvim-treesitter/nvim-treesitter)
 - [File explorer](https://github.com/kyazdani42/nvim-tree.lua)
 - [LSP configuration](https://github.com/neovim/nvim-lspconfig)
