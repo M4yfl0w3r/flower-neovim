@@ -6,7 +6,6 @@ return require("packer").startup(
     use "windwp/nvim-autopairs"
     use "p00f/nvim-ts-rainbow"
     use "akinsho/bufferline.nvim"
-    use "declancm/cinnamon.nvim"
     use "lewis6991/gitsigns.nvim"
     use "numToStr/Comment.nvim"
     use "akinsho/toggleterm.nvim"
@@ -25,20 +24,14 @@ return require("packer").startup(
     use "saadparwaiz1/cmp_luasnip"
     use "L3MON4D3/LuaSnip"
     use "rafamadriz/friendly-snippets"
-    use "iamcco/markdown-preview.nvim"
-    use "SmiteshP/nvim-gps"
     use "martinsione/darkplus.nvim"
     use "folke/trouble.nvim"
-    use "anuvyklack/pretty-fold.nvim"
+    use "lukas-reineke/indent-blankline.nvim"
+    use "folke/tokyonight.nvim"
     
     use {
         "nvim-treesitter/nvim-treesitter",
         run = ":TSUpdate",
-    }
-
-    use {
-        'nvim-telescope/telescope.nvim', tag = '0.1.0',
-        requires = { {'nvim-lua/plenary.nvim'} }
     }
 
   end
