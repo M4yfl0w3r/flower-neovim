@@ -25,7 +25,7 @@ local options = {
   tabstop = 4,
   shiftwidth = 4,
   timeoutlen = 500,
-  updatetime = 300,
+  updatetime = 300
 }
 
 for option, value in pairs(options) do

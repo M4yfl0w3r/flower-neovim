@@ -1,4 +1,4 @@
-require("nvim-tree").setup{}
+require('nvim-tree').setup()
 
 vim.api.nvim_create_autocmd(
   'BufEnter',

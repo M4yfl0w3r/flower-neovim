@@ -39,8 +39,8 @@ keymap("n", "<C-Left>", "<C-w>h")
 -- Close a window (Ctrl + x)
 keymap("n", "<C-x>", ":bd<CR>")
 
--- Open file finder (Space + f)
-keymap("n", "<leader>f", "<cmd>Telescope find_files<CR>")
+-- Show symbols in file (Space + f)
+keymap("n", "<leader>f", ":SymbolsOutlineOpen<CR>")
 
 -- Show git changes
 keymap("n", "<leader>g", "<cmd>Gitsigns toggle_signs<CR>")
@@ -50,6 +50,5 @@ keymap("n", "<leader>w", "<cmd>Gitsigns blame_line<CR>")
 -- Show diagnostics
 keymap("n", "gl", "<cmd>lua vim.diagnostic.open_float()<CR>")
 
--- Show diagnostics
+-- Show diagnostics (Space + s)
 keymap("n", "<leader>s", "<cmd>TroubleToggle<CR>")
-
