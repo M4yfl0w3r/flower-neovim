@@ -1,54 +1,45 @@
 require("bufferline").setup
 {
-  options =
-  {
-    offsets = {{ filetype = "NvimTree", text = "File Explorer", padding = 0.98 }},
+  options = {
+    offsets = {{ filetype = "NvimTree", text = "File Explorer", padding = 1 }},
     separator_style = "thin",
   },
 
-  highlights =
-  {
-    fill =
-    {
+  highlights = {
+    fill = {
       fg = { attribute = "fg", highlight = "#ff0000" },
       bg = { attribute = "bg", highlight = "TabLine" },
     },
 
-    background =
-    {
+    background = {
       fg = { attribute = "fg", highlight = "TabLine" },
       bg = { attribute = "bg", highlight = "TabLine" },
     },
 
-    close_button =
-    {
+    close_button = {
       fg = { attribute = "fg", highlight = "TabLine" },
       bg = { attribute = "bg", highlight = "TabLine" },
     },
 
-    close_button_visible =
-    {
+    close_button_visible = {
       fg = { attribute = "fg", highlight = "TabLine" },
       bg = { attribute = "bg", highlight = "TabLine" },
     },
 
-    separator =
-    {
+    separator = {
       fg = { attribute = "bg", highlight = "TabLine" },
       bg = { attribute = "bg", highlight = "TabLine" },
     },
 
-    separator_selected =
-    {
+    separator_selected = {
       fg = { attribute = "bg", highlight = "Normal" },
       bg = { attribute = "bg", highlight = "Normal" },
     },
 
-    indicator_selected =
-    {
+    indicator_selected = {
       fg = { attribute = "fg", highlight = "LspDiagnosticsDefaultHint" },
       bg = { attribute = "bg", highlight = "Normal" },
     },
-  },
+  }
 }
 

@@ -1,9 +1,8 @@
-local options =
-{
+local options = {
   mouse = "a",
   guicursor = "",
   encoding= "UTF-8",
-  signcolumn = "yes",
+  signcolumn = "no",
 
   backup = false,
   swapfile = false,
@@ -23,8 +22,8 @@ local options =
   termguicolors = true,
   relativenumber = true,
 
-  tabstop = 4,
-  shiftwidth = 4,
+  tabstop = 2,
+  shiftwidth = 2,
   timeoutlen = 500,
   updatetime = 300,
 }

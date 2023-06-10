@@ -4,14 +4,12 @@ return require("packer").startup(
 
     use "wbthomason/packer.nvim"
     use "windwp/nvim-autopairs"
-    use "p00f/nvim-ts-rainbow"
     use "akinsho/bufferline.nvim"
     use "lewis6991/gitsigns.nvim"
     use "numToStr/Comment.nvim"
     use "akinsho/toggleterm.nvim"
     use "kyazdani42/nvim-web-devicons"
     use "nvim-lualine/lualine.nvim"
-    use "goolord/alpha-nvim"
     use "nvim-lua/plenary.nvim"
     use "kyazdani42/nvim-tree.lua"
     use "neovim/nvim-lspconfig"
@@ -24,15 +22,9 @@ return require("packer").startup(
     use "saadparwaiz1/cmp_luasnip"
     use "L3MON4D3/LuaSnip"
     use "rafamadriz/friendly-snippets"
-    use "martinsione/darkplus.nvim"
     use "folke/trouble.nvim"
-    use "lukas-reineke/indent-blankline.nvim"
     use "folke/tokyonight.nvim"
-    
-    use {
-        "nvim-treesitter/nvim-treesitter",
-        run = ":TSUpdate",
-    }
+    use "nvim-treesitter/nvim-treesitter"
 
   end
 )
