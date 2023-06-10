@@ -2,7 +2,7 @@ local options = {
   mouse = "a",
   guicursor = "",
   encoding= "UTF-8",
-  signcolumn = "no",
+  signcolumn = "yes",
 
   backup = false,
   swapfile = false,
@@ -22,8 +22,8 @@ local options = {
   termguicolors = true,
   relativenumber = true,
 
-  tabstop = 2,
-  shiftwidth = 2,
+  tabstop = 4,
+  shiftwidth = 4,
   timeoutlen = 500,
   updatetime = 300,
 }

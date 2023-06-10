@@ -25,6 +25,7 @@ return require("packer").startup(
     use "folke/trouble.nvim"
     use "folke/tokyonight.nvim"
     use "nvim-treesitter/nvim-treesitter"
+    use "karb94/neoscroll.nvim"
 
   end
 )
