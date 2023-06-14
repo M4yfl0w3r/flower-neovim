@@ -29,3 +29,4 @@ My Neovim configuration written in Lua.
 - [Smooth scrolling](https://github.com/karb94/neoscroll.nvim)
 - [Symbols outline](https://github.com/simrat39/symbols-outline.nvim)
 - [Fold](https://github.com/kevinhwang91/nvim-ufo)
+- [Git integration](https://github.com/TimUntersberger/neogit)

@@ -29,6 +29,7 @@ return require('packer').startup(
     use 'kevinhwang91/promise-async'
     use 'kevinhwang91/nvim-ufo'
     use 'simrat39/symbols-outline.nvim'
+    use 'TimUntersberger/neogit'
 
   end
 )
