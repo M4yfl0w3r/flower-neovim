@@ -1,8 +1,7 @@
 local M = {}
 
 M.setup = function()
-  local signs =
-  {
+  local signs = {
     { name = "DiagnosticSignError", text = "" },
     { name = "DiagnosticSignWarn", text = "" },
     { name = "DiagnosticSignHint", text = "" },
@@ -13,8 +12,7 @@ M.setup = function()
     vim.fn.sign_define(sign.name, { texthl = sign.name, text = sign.text, numhl = "" })
   end
 
-  local config =
-  {
+  local config = {
     virtual_text = false,
     signs = { active = signs },
     update_in_insert = true,
