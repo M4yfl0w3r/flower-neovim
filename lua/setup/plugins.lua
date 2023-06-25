@@ -26,13 +26,12 @@ return require('packer').startup(
     use 'folke/tokyonight.nvim'
     use 'nvim-treesitter/nvim-treesitter'
     use 'karb94/neoscroll.nvim'
-    use 'kevinhwang91/promise-async'
-    use 'kevinhwang91/nvim-ufo'
     use 'simrat39/symbols-outline.nvim'
     use 'TimUntersberger/neogit'
     use 'nvim-telescope/telescope.nvim'
     use 'nvim-telescope/telescope-file-browser.nvim'
 
-  end
+    end
 )
+
 
