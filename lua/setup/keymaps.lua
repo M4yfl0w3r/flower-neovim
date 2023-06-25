@@ -39,16 +39,17 @@ keymap("n", "<C-Left>", "<C-w>h")
 -- Close a window (Ctrl + x)
 keymap("n", "<C-x>", ":bd<CR>")
 
--- Show symbols in file (Space + f)
-keymap("n", "<leader>f", ":SymbolsOutlineOpen<CR>")
-
--- Show git changes
-keymap("n", "<leader>g", "<cmd>Gitsigns toggle_signs<CR>")
-keymap("n", "<C-g>", "<cmd>Gitsigns preview_hunk<CR>")
-keymap("n", "<leader>w", "<cmd>Gitsigns blame_line<CR>")
+-- Show symbols in file (Space + s)
+keymap("n", "<leader>s", ":SymbolsOutlineOpen<CR>")
 
 -- Show diagnostics
 keymap("n", "gl", "<cmd>lua vim.diagnostic.open_float()<CR>")
 
--- Show diagnostics (Space + s)
-keymap("n", "<leader>s", "<cmd>TroubleToggle<CR>")
+-- Show diagnostics (Space + d)
+keymap("n", "<leader>d", "<cmd>TroubleToggle<CR>")
+
+-- Telescope - Find files
+keymap("n", "<leader>f", "<cmd>Telescope find_files<CR>")
+
+-- Telescope - Live grep
+keymap("n", "<leader>g", "<cmd>Telescope live_grep<CR>")

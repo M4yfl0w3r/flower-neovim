@@ -30,6 +30,8 @@ return require('packer').startup(
     use 'kevinhwang91/nvim-ufo'
     use 'simrat39/symbols-outline.nvim'
     use 'TimUntersberger/neogit'
+    use 'nvim-telescope/telescope.nvim'
+    use 'nvim-telescope/telescope-file-browser.nvim'
 
   end
 )

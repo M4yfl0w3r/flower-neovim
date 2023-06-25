@@ -30,3 +30,4 @@ My Neovim configuration written in Lua.
 - [Symbols outline](https://github.com/simrat39/symbols-outline.nvim)
 - [Fold](https://github.com/kevinhwang91/nvim-ufo)
 - [Git integration](https://github.com/TimUntersberger/neogit)
+- [Fuzzy finder](https://github.com/nvim-telescope/telescope.nvim)
