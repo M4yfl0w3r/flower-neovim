@@ -20,8 +20,8 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv")
 -- Turn off highlight (Space + n)
 keymap("n", "<leader>n", ":noh<CR>")
 
--- Open markdown file preview (Ctrl + w)
-keymap("n", "<C-w>", ":MarkdownPreview<CR>")
+-- Compile latex file
+keymap("n", "<C-w>", ":VimtexCompile<CR>")
 
 -- Switch buffers (Alt + Arrows)
 keymap("n", "<A-Right>", ":bnext<CR>")
