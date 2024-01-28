@@ -53,3 +53,4 @@ keymap("n", "<leader>f", "<cmd>Telescope find_files<CR>")
 
 -- Telescope - Live grep
 keymap("n", "<leader>g", "<cmd>Telescope live_grep<CR>")
+

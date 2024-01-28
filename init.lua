@@ -17,3 +17,5 @@ require('setup.neoscroll')
 require('setup.symbols')
 require('setup.neogit')
 require('setup.telescope')
+
+vim.g.vimtex_view_method = 'zathura'
