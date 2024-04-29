@@ -3,7 +3,7 @@ require('nvim-tree').setup({
         dotfiles = false,
         git_clean = false,
         no_buffer = false,
-        custom = { '*.aux', '*.fdb_latexmk', '*.fls', '*.log', '*.out' },
+        custom = { '*.aux', '*.fdb_latexmk', '*.fls', '*.log', '*.out', '*.gz', '*.toc', '*.pdf', '*.git' },
     },
 })
 

@@ -30,6 +30,7 @@ return require('packer').startup(
     use 'TimUntersberger/neogit'
     use 'nvim-telescope/telescope.nvim'
     use 'nvim-telescope/telescope-file-browser.nvim'
+    use 'nvim-telescope/telescope-media-files.nvim'
     use 'lervag/vimtex'
 
     end

@@ -1,8 +1,6 @@
-## Flower Neovim
-
 My Neovim configuration written in Lua.
 
-#### Plugins
+Plugins
 
 - [Plugin manager](https://github.com/wbthomason/packer.nvim)
 - [Autopairs](https://github.com/windwp/nvim-autopairs)
@@ -30,3 +28,5 @@ My Neovim configuration written in Lua.
 - [Symbols outline](https://github.com/simrat39/symbols-outline.nvim)
 - [Git integration](https://github.com/TimUntersberger/neogit)
 - [Fuzzy finder](https://github.com/nvim-telescope/telescope.nvim)
+- [Latex support](https://github.com/lervag/vimtex)
+
