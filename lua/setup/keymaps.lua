@@ -36,7 +36,7 @@ keymap("n", "<C-Down>", "<C-w>j")
 keymap("n", "<C-Right>", "<C-w>l")
 keymap("n", "<C-Left>", "<C-w>h")
 
--- Close a window (Ctrl + x)
+-- Close a panel (Ctrl + x)
 keymap("n", "<C-x>", ":bd<CR>")
 
 -- Show symbols in file (Space + s)

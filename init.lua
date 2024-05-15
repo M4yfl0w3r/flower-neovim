@@ -18,4 +18,3 @@ require('setup.symbols')
 require('setup.neogit')
 require('setup.telescope')
 require('setup.latex')
-
