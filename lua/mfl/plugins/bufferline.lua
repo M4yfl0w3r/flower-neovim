@@ -9,8 +9,9 @@ return {
         require('bufferline').setup {
             options = {
                 offsets = {{
-                    filetype   = 'NvimTree',
-                    text       = 'File explorer',
+                    filetype = 'NvimTree',
+                    text     = 'File explorer',
+                    padding  = 1
                 }}
             }
         }

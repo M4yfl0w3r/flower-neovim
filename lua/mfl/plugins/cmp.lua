@@ -14,8 +14,9 @@ return {
 
         cmp.setup {
             sources = cmp.config.sources {
+                { name = 'nvim_lsp' },
                 { name = 'buffer' },
-                { name = 'path' }
+                { name = 'path' },
             },
 
             confirm_opts = {
@@ -24,14 +25,14 @@ return {
             },
 
             mapping = cmp.mapping.preset.insert {
-                
-                ['<CR>']    = cmp.mapping.confirm { select = true },
+
+                ['<CR>']  = cmp.mapping.confirm { select = true },
 
                 ['<Up']   = cmp.mapping.select_prev_item(),
 
                 ['<Down'] = cmp.mapping.select_next_item(),
 
-                ['<Tab>']   = cmp.mapping (
+                ['<Tab>'] = cmp.mapping (
                     function(fallback)
                         if cmp.visible() then
                             cmp.select_next_item()
@@ -40,6 +41,7 @@ return {
                         end
                     end
                 )
+
             }
         }
     end
