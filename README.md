@@ -7,3 +7,4 @@ My Neovim configuration written in Lua.
 - [Bufferline](https://github.com/akinsho/bufferline.nvim)
 - [Statusline](https://github.com/nvim-lualine/lualine.nvim)
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [Fuzzy finder](https://github.com/nvim-telescope/telescope.nvim)
