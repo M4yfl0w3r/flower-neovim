@@ -9,3 +9,4 @@ My Neovim configuration written in Lua.
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [Fuzzy finder](https://github.com/nvim-telescope/telescope.nvim)
 - [Improving vim.ui interfaces](https://github.com/stevearc/dressing.nvim)
+
