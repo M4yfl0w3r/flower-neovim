@@ -6,3 +6,4 @@ My Neovim configuration written in Lua.
 - [Completion](https://github.com/hrsh7th/nvim-cmp)
 - [Bufferline](https://github.com/akinsho/bufferline.nvim)
 - [Statusline](https://github.com/nvim-lualine/lualine.nvim)
+- [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
