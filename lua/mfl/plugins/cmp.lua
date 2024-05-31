@@ -1,6 +1,6 @@
 return {
     'hrsh7th/nvim-cmp',
-    
+ 
     event = 'InsertEnter',
 
     dependencies = {
@@ -10,7 +10,7 @@ return {
 	},
 
     config = function()
-        cmp = require('cmp')
+        local cmp = require('cmp')
 
         cmp.setup {
             sources = cmp.config.sources {
@@ -41,7 +41,18 @@ return {
                         end
                     end
                 )
+            },
 
+            formatting = {
+                format = function(entry, vim_item)
+                    vim_item.menu = ({
+                        nvim_lsp = '[LSP]',
+                        buffer   = '[Buffer]',
+                        path     = '[Path]'
+                    })[entry.source.name]
+
+                    return vim_item
+                end
             }
         }
     end

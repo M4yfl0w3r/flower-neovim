@@ -44,5 +44,9 @@ return {
             }
         }
 
+        require('lspconfig')['clangd'].setup {
+
+        }
+
     end
 }
