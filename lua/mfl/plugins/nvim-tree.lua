@@ -12,6 +12,10 @@ return {
                 git_clean = false,
                 no_buffer = false,
                 custom = { '*.aux', '*.fdb_latexmk', '*.fls', '*.log', '*.out', '*.gz', '*.toc', '*.pdf', '*.git' }
+            },
+
+            view = {
+                adaptive_size = true
             }
         }
 
