@@ -14,4 +14,5 @@ My Neovim configuration written in Lua.
 - [Improving vim.ui interfaces](https://github.com/stevearc/dressing.nvim)
 - [LSP config](https://github.com/neovim/nvim-lspconfig)
 - [Package manager for LSPs](https://github.com/williamboman/mason.nvim)
+- [Commenting](https://github.com/numToStr/Comment.nvim)
 
