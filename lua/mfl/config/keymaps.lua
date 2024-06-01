@@ -57,3 +57,6 @@ keymap('n', '<leader>b', '<cmd> DapToggleBreakpoint <CR>')
 -- Debugger - Start / Resume debugger 
 keymap('n', '<leader>r', '<cmd> DapContinue <CR>')
 
+-- Blame
+keymap('n', 'bl', '<cmd> Gitsigns blame_line <CR>')
+

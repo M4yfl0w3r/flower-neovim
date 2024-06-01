@@ -44,9 +44,9 @@ return {
             }
         }
 
-        require('lspconfig')['clangd'].setup {
+        require('lspconfig')['clangd'].setup {}
 
-        }
+        require('lspconfig')['cmake'].setup {}
 
     end
 }
