@@ -15,6 +15,10 @@ vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup {
     import = 'mfl.plugins',
-    change_detection = { enabled = false }
+
+    change_detection = {
+        enabled = true,
+        notify  = false
+    }
 }
 
